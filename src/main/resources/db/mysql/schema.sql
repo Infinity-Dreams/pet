@@ -1,4 +1,4 @@
-CREATE DATABASE IF NOT EXISTS petclinic;
+CREATE DATABASE petclinic;
 
 USE petclinic;
 
