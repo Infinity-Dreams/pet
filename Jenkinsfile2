@@ -32,8 +32,7 @@ pipeline {
                 script {
                     // Assume the Docker Hub registry by passing an empty string as the first parameter
                     docker.withRegistry('' , 'dockerhub-st251-jenkins') {
-                        dockerImage.push()
-                        sleep 60
+                        dockerImage.push()               
                     sh "docker rmi st251/petclinic:${env.BUILD_NUMBER}"
                     }
                 }
