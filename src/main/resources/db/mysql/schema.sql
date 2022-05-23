@@ -1,7 +1,5 @@
 CREATE DATABASE IF NOT EXISTS petclinic;
 
-GRANT ALL PRIVILEGES ON petclinic.* TO 'petclinic'@'%' IDENTIFIED BY 'petclinic';
-
 USE petclinic;
 
 CREATE TABLE IF NOT EXISTS vets (
