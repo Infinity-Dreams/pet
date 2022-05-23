@@ -1,5 +1,4 @@
 CREATE DATABASE petclinic;
-
 USE petclinic;
 
 CREATE TABLE IF NOT EXISTS vets (
